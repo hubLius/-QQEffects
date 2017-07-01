@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.qqeffectsdemo.view.MyLiearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#18B4ED">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/head2" />
+
+
+    </FrameLayout>
+
+    <com.test.qqeffectsdemo.view.ParallaxLayout
+        android:id="@+id/main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.test.qqeffectsdemo.view.MyLiearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.qqeffectsdemo.view.SlideMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slide_main"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_menu"></include>
+
+    <include layout="@layout/layout_main"></include>
+
+</com.test.qqeffectsdemo.view.SlideMenuView>
